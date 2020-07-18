@@ -1,0 +1,42 @@
+.swiper{
+    width: 750rpx;
+    height:330rpx;
+}
+.swiper_img{
+    width: 750rpx;
+}
+.bigbox{
+    width: 750rpx;
+    height: 650rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.item_box{
+    margin-top: 15rpx;
+    width: 360rpx;
+    height: 200rpx;
+    border-radius: 10rpx;
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 50rpx;
+    left: 30rpx;
+    font-weight: 500;
+    font-size: 40rpx;
+    font-family: HeiTi;
+}
+.img{
+    width: 100rpx;
+    position:absolute;
+    right: 20rpx;
+    top:30rpx;
+}
+.text2{
+    position: absolute;
+    top: 140rpx;
+    left: 20rpx;
+    font-size: 27rpx;
+}

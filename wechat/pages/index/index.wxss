@@ -1,0 +1,57 @@
+.all-box {
+    width: 750rpx;
+    height: 1200rpx;
+    background-color:rgb(245, 245, 245);
+}
+
+.head-box {
+    width: 750rpx;
+    height: 430rpx;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+}
+
+.img{
+    width: 750rpx;
+}
+
+
+.input-box {
+    width: 100%;
+    height: 125rpx;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20rpx auto;
+}
+
+.input{
+  width: 500rpx;
+  position: relative;
+}
+
+.login{
+    position: relative;
+    line-height: 70rpx;
+    color: #ffffff;
+    font-weight: 500;
+    top: 50rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+    background-color:#22A6F2;
+}
+
+.botton-box{
+    position: relative;
+    top: 100rpx;
+    width: 750rpx;
+    height: 100rpx;
+    display: inline-flex;
+    
+}
+.botton-button{
+   height: 70rpx;
+   font-size: 30rpx;
+   font-weight: 400;
+}

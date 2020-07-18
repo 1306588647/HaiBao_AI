@@ -1,0 +1,13 @@
+<view class="bigbox">
+	<view class="head-box">
+		<image class="add-img" src="{{img_add}}" mode="widthFix"></image>
+		<view class="add-img-box" bindtap="plantclick">上传图片</view>
+	</view>
+	<view class="result" hidden="{{hide}}">识别结果:</view>
+	<view class="answer-box">
+		<view class="ans-box" wx:for="{{array}}">
+			<view class="name">{{item.classname}}</view>
+			<view class="possibility">{{item.probability}}%</view>
+		</view>
+	</view>
+</view>

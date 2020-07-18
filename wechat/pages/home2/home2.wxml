@@ -1,0 +1,27 @@
+<swiper class="swiper" autoplay indicator-dots interval="3000" circular>
+	<swiper-item>
+		<image class="swiper_img" mode="widthFix" src="https://pics.images.ac.cn/image/5f0d8d7a71930.html"></image>
+	</swiper-item>
+	<swiper-item>
+		<image class="swiper_img" mode="widthFix" src="https://pics.images.ac.cn/image/5f0d8d872ab4f.html"></image>
+	</swiper-item>
+	<swiper-item>
+		<image class="swiper_img" mode="widthFix" src="https://pics.images.ac.cn/image/5f0d8d937e044.html"></image>
+	</swiper-item>
+	<swiper-item>
+		<image class="swiper_img" mode="widthFix" src="https://pics.images.ac.cn/image/5f0d8d9e03508.html"></image>
+	</swiper-item>
+</swiper>
+
+<view class="bigbox">
+	<view class="item_box" 
+	wx:for="{{list}}" 
+	style="background:linear-gradient(to right,rgb({{item.color1}}),rgb({{item.color2}}))"
+	bindtap="{{item.func}}"
+	>
+		<text class="text1" style="color:{{item.title1_color}}">{{item.title}}</text>
+		<image class="img" mode="widthFix" src="{{item.imgadd}}"></image>
+        <text class="text2" style="color:{{item.title2_color}}">{{item.title2}}</text>
+	</view>
+
+</view>

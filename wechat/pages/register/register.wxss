@@ -1,0 +1,50 @@
+.head-box {
+  width: 750;
+  height: 350rpx;
+  background-color: rgb(245, 245, 245);
+  position: relative;
+}
+
+.add-img-box {
+  width: 170rpx;
+  height: 170rpx;
+  margin: auto;
+  position: relative;
+  top: 90rpx;
+}
+
+.add-img {
+  position: relative;
+  width: 170rpx;
+  height: 170rpx;
+}
+
+.add-img-text {
+  margin: 15rpx auto;
+  text-align: center;
+}
+.input-box {
+    width: 100%;
+    height: 125rpx;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20rpx auto;
+}
+
+.input{
+  width: 500rpx;
+  position: relative;
+}
+
+.register{
+    position: relative;
+    line-height: 70rpx;
+    color: #ffffff;
+    font-weight: 500;
+    top: 50rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+    background-color:#22A6F2;
+}

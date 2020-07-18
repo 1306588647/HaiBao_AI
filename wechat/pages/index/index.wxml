@@ -1,0 +1,22 @@
+<view class="all-box">
+	<view class="head-box">
+		<image class="img" src="https://pics.images.ac.cn/image/5f0dce47ce528.html"  mode="widthFix"></image>
+	</view>
+
+	<view class="input-box">
+		<text>账号</text>
+		<input class="input" type="text" bindinput="getAccount" placeholder="输入您的账号"></input>
+	</view>
+	<view class="input-box">
+		<text>密码</text>
+		<input class="input" type="password" bindinput="getPassWord" placeholder="输入您的密码"></input>
+	</view>
+	<button class="login" bindtap="login" style="width:80vw">登 录</button>
+
+
+	<view class="botton-box">
+		<button class="botton-button" style="width: 250rpx" bindtap="goto_register">注册</button>
+		<button class="botton-button" style="width: 250rpx" bindtap="goto_forget_password">找回密码</button>
+	</view>
+
+</view>

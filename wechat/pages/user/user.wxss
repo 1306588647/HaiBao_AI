@@ -1,0 +1,64 @@
+.big-box{
+    width: 750rpx;
+    background-color:rgb(244,245,246) ;
+    height: 1500rpx;
+}
+
+.head-box{
+    width: 750rpx;
+    height: 400rpx;
+    background-color: rgb(170,254,254);
+    position: relative;
+}
+.img-box{
+    width: 200rpx;
+    height: 200rpx;
+    position: relative;
+    top: 70rpx;
+    margin: auto;
+}
+.img{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 100%;
+}
+.account-box{
+    width: 500rpx;
+    height: 100rpx;
+    line-height: 90rpx;
+    font-weight: 700;
+    color: rgb(0,42,118);
+    position: relative;
+    top: 100rpx;
+    margin: auto;
+    text-align: center;
+}
+
+.botton-box{
+    width: 730rpx;
+    margin: 30rpx auto;
+}
+.item{
+    margin: 5rpx auto;
+    height: 100rpx;
+    width: 730rpx;
+    background-color: white;
+    position: relative;
+}
+.wenzi{
+    position: relative;
+    font-weight: 600;
+    top: 30rpx;
+    left: 30rpx;
+}
+.jiankuohao{
+    position: relative;
+    font-weight: 600;
+    top: 30rpx;
+    right: -560rpx;
+}
+.exit{
+
+    background-color: rgb(233, 77, 77);
+    border-radius: 30rpx;
+}

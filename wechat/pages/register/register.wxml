@@ -1,0 +1,21 @@
+<view class="all-box">
+	<view class="head-box">
+		<view class="add-img-box" bindtap="addImage">
+			<image class="add-img" src="{{headimg}}" mode="widthFix"></image>
+			<view class="add-img-text">上传头像</view>
+		</view>
+	</view>
+	<view class="input-box">
+		<text>账号</text>
+		<input class="input" type="text" bindinput="getAccount" placeholder="输入您的账号"></input>
+	</view>
+	<view class="input-box">
+		<text>密码</text>
+		<input class="input" type="password" bindinput="getPassWord" placeholder="输入您的密码"></input>
+	</view>
+	<view class="input-box">
+		<text>确认密码</text>
+		<input class="input" type="password" bindinput="getTruePassWord" placeholder="输入您的确认密码"></input>
+	</view>
+	<button class="register" bindtap="register" style="width:80vw">注 册</button>
+</view>

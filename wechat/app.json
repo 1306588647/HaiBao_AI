@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/register/register",
+        "pages/introduction/introduction",
+        "pages/user/user",
+        "pages/home/home",
+        "pages/home2/home2",
+        "pages/whiteblack/whiteblack",
+        "pages/logo/logo",
+        "pages/money/money",
+        "pages/animal/animal",
+        "pages/hand/hand",
+        "pages/Anime/Anime",
+        "pages/food/food",
+        "pages/removefog/removefog",
+        "pages/plant/plant",
+        "pages/forgetpassword/forgetpassword",
+        "pages/clear/clear"
+       
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "selectedColor": "#000000",
+        "borderStyle": "white",
+        "list": [{
+            "pagePath": "pages/home/home",
+            "text": "图片识别",
+            "iconPath": "/img/sbno.png",
+            "selectedIconPath": "/img/sbyes.png"
+        }, {
+            "pagePath": "pages/home2/home2",
+            "text": "图片渲染",
+            "iconPath": "/img/xrno.png",
+            "selectedIconPath": "/img/xryes.png"
+        }, {
+            "pagePath": "pages/user/user",
+            "text": "个人中心",
+            "iconPath": "/img/renno.png",
+            "selectedIconPath": "/img/renyes.png"
+        }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

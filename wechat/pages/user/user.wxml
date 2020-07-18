@@ -1,0 +1,35 @@
+<view class="big-box">
+	<view class="head-box">
+		<view class="img-box">
+			<image class="img" src="{{headimg}}"></image>
+		</view>
+		<view class="account-box">账号: {{account}}</view>
+	</view>
+
+	<view class="botton-box">
+		<view class="item" bindtap="goto_forgetpassword">
+			<text class="wenzi">修改密码</text>
+			<text class="jiankuohao">></text>
+		</view>
+
+		<view class="item" bindtap="changeheadimg">
+			<text class="wenzi">修改头像</text>
+			<text class="jiankuohao">></text>
+		</view>
+		<view class="item" bindtap="people">
+			<text class="wenzi">联系客服</text>
+
+			<text class="jiankuohao">></text>
+		</view>
+		<view class="item">
+			<text class="wenzi">等待完善</text>
+			<text class="jiankuohao">></text>
+		</view>
+		<view class="item" bindtap="goto_introduction">
+			<text class="wenzi">关于软件</text>
+			<text class="jiankuohao">></text>
+		</view>
+	</view>
+	<button class="exit" bindtap="exit">退出登录</button>
+
+</view>

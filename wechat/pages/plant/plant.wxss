@@ -1,0 +1,45 @@
+
+.add-img{
+    width: 750rpx;
+}
+.add-img-box{
+    width: 300rpx;
+    height: 100rpx;
+    margin:20rpx auto;
+    background-color: #22A6F2;
+    border-radius: 30rpx;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 40rpx;
+
+}
+.answer-box{
+    width: 750;
+    margin-bottom: 100rpx;
+}
+.result{
+    margin: 20rpx auto 20rpx;
+    text-align: center;
+    font-size: 40rpx;
+}
+.ans-box{
+    width: 750rpx;
+    display: flex;
+    justify-content:center ;
+}
+.name{
+    width: 200rpx;
+    height: 80rpx;
+    text-align: center;
+    padding-right: 20rpx;
+    border:solid black 3rpx;
+    line-height: 75rpx;
+    background-color: rgb(34,166,242);
+}
+.possibility{
+    width: 200rpx;
+    height: 80rpx;
+    text-align: center;
+    border:solid black 3rpx;
+    line-height: 75rpx;
+}

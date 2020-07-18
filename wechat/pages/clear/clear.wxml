@@ -1,0 +1,10 @@
+<view class="bigbox">
+	<view class="head-box">
+		<image class="add-img" src="{{img_add}}" mode="widthFix"></image>
+		<view class="add-img-box" bindtap="plantclick">上传图片</view>
+	</view>
+	<view class="result" hidden="{{hide}}" >长按图片保存图片</view>
+	<view class="answer-box">
+		<image bindlongtap="save" class="res_img" src="data:image/png;base64,{{res_imgadr}}" mode="widthFix"></image>
+	</view>
+</view>
