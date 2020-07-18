@@ -7,7 +7,9 @@
 
 ### 界面：
 
- <img src="https://gitee.com/gghworld/images/raw/master/img/20200718181651.png" alt="image-20200718181651258" style="zoom:80%;" /><img src="https://gitee.com/gghworld/images/raw/master/img/20200718181740.png" alt="image-20200718181740585" style="zoom:80%;" />
+ ![image-20200718223333960](https://gitee.com/gghworld/images/raw/master/img/20200718223334.png)
+
+ ![image-20200718223421448](https://gitee.com/gghworld/images/raw/master/img/20200718223421.png)
 
 ### 系统架构：
 
@@ -46,8 +48,10 @@
   * 我的电脑 -> 右键 -> 属性 -> 高级系统设置 -> 环境变量 -> 系统变量中添加系统变量NODE_PATH，输入路径：
      `E:\nodejs\node_global\node_modules`
 
-    <img src="https://gitee.com/gghworld/images/raw/master/img/20200718183657.png" alt="image-20200718183657327" style="zoom: 67%;" />
+    ![image-20200718223231644](https://gitee.com/gghworld/images/raw/master/img/20200718223231.png)
 
+     
+     
   * 在命令行输入node进入编辑模式，输入以下代码检查是否能正常加载模块：
 
     `require(“express”);`
@@ -66,10 +70,12 @@
 
     因为cnpm会被安装到`E:\nodejs\node_global`下，而系统变量path并未包含该路径。在系统变量path下添加该路径即可正常使用cnpm；如下图：
 
-    <img src="https://gitee.com/gghworld/images/raw/master/img/20200718184544.png" alt="image-20200718184544115" style="zoom:80%;" />
+    ![image-20200718223305090](https://gitee.com/gghworld/images/raw/master/img/20200718223305.png)
+
+    
 
   * 输入cnpm –v检查是否正常
-
+  
     ![image-20200718184632867](https://gitee.com/gghworld/images/raw/master/img/20200718184632.png)
 
 ----
